@@ -17,7 +17,7 @@ import { router } from './routers/router.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <PreLoader/> */}
-    <div className='container mx-auto px-6 '>
+    <div className='container mx-auto px-6' id='beranda'>
     <RouterProvider router={router}/>
     </div>
   </StrictMode>,

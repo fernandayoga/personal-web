@@ -7,8 +7,6 @@ const DetailProyek = () => {
     const navigate = useNavigate()
   const data = useLoaderData();
    
-
-    
   
   return (
     <>
