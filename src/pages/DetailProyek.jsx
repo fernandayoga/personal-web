@@ -1,4 +1,3 @@
-import { useLoader } from "@react-three/fiber";
 
 
 import { useLoaderData, useNavigate } from "react-router-dom";
