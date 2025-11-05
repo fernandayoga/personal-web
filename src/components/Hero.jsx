@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center">
             <a
-              href="/My Personal CV.pdf"
+              href="/personalCV.pdf"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
               download
             >
