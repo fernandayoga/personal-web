@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "../data";
 
-
 const Hero = () => {
   return (
     <>
@@ -17,7 +16,10 @@ const Hero = () => {
               className="w-10 rounded-md"
               loading="lazy"
             />
-            <q>gaada orang baru lahir langsung jago coding, semua dari usaha dan latihan</q>
+            <q>
+              gaada orang baru lahir langsung jago coding, semua dari usaha dan
+              latihan
+            </q>
           </div>
           <h1 className="text-5xl font-bold mb-6">
             Hi, Saya Fernanda Yoga Kurniawan
@@ -31,7 +33,7 @@ const Hero = () => {
           </p>
           <div className="flex items-center">
             <a
-              href="/public/My Personal CV.pdf"
+              href="/My Personal CV.pdf"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
               download
             >

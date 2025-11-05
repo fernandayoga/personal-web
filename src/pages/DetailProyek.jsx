@@ -1,13 +1,9 @@
-
-
 import { useLoaderData, useNavigate } from "react-router-dom";
 
-
 const DetailProyek = () => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   const data = useLoaderData();
-   
-  
+
   return (
     <>
       <div className="flex justify-center items-start h-screen p-6">

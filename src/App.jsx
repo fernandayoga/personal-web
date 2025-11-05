@@ -6,11 +6,7 @@ import About from "./components/About";
 import Tools from "./components/Tools";
 import Projek from "./components/Projek";
 import Kontak from "./components/Kontak";
-import PreLoader from "./components/PreLoader"
-
-
-
-
+import PreLoader from "./components/PreLoader";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,28 +19,25 @@ function App() {
     } else {
       setShow(true);
     }
-  }, [count, show]);
+  }, [count]);
 
-  
   return (
     <>
-
-
-    {!show ? <PreLoader count={count}/> :
-    <div>
-      <Navbar />
-      <Hero />
-      <div className="tentang mt-32 py-10" id="tentang">
-        <About />
-        <Tools />
-        <Projek />
-        <Kontak />
-      </div>
-      <Footer />
-    </div>
-    }
-    
-
+      {!show ? (
+        <PreLoader count={count} />
+      ) : (
+        <div>
+          <Navbar />
+          <Hero />
+          <div className="tentang mt-32 py-10" id="tentang">
+            <About />
+            <Tools />
+            <Projek />
+            <Kontak />
+          </div>
+          <Footer />
+        </div>
+      )}
     </>
   );
 }
