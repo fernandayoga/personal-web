@@ -29,12 +29,15 @@ const DetailProyek = () => {
                 loading="lazy"
                 className="rounded-md w-full object-cover"
               />
-              <img
-                src={data.gambar2}
-                alt="image"
-                loading="lazy"
-                className="rounded-md w-full object-cover"
-              />
+
+              {data.gambar2 && (
+                <img
+                  src={data.gambar2}
+                  alt="image"
+                  loading="lazy"
+                  className="rounded-md w-full object-cover"
+                />
+              )}
             </div>
 
             {/* Detail */}

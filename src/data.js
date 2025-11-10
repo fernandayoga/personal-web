@@ -1,12 +1,11 @@
 import HeroImage from "./assets/img/photo.png";
-import sandhika from "./assets/img/sandhika.png"
+import sandhika from "./assets/img/sandhika.png";
 
 const Image = {
   HeroImage,
   sandhika,
 };
 export default Image;
-
 
 // Tools
 import Tools1 from "./assets/img/tools/vscode.png";
@@ -101,48 +100,52 @@ export const listTools = [
   },
 ];
 
-
-
 //Projek
 import Proyek1 from "./assets/img/proyek/E-commerce.png";
 import Proyek2 from "./assets/img/proyek/TXID.png";
-import Projek1next from "./assets/img/proyek/E-commerce2.png"
-import Projek2next from "./assets/img/proyek/TXID2.png"
-
+import Proyek3 from "./assets/img/proyek/weather-app.png";
+import Projek1next from "./assets/img/proyek/E-commerce2.png";
+import Projek2next from "./assets/img/proyek/TXID2.png";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    gambar2 : Projek1next,
+    gambar2: Projek1next,
     nama: "Website E-Commerce mini",
-    linkWeb : "https://e-commerce-mini-fernandayoga.vercel.app",
-    linkGithub : "https://github.com/fernandayoga/E-commerce-mini.git",
+    linkWeb: "https://e-commerce-mini-fernandayoga.vercel.app",
+    linkGithub: "https://github.com/fernandayoga/E-commerce-mini.git",
     desk: "Website E-Commerce yang saya buat merupakan sebuah mini project yang memanfaatkan API dari FakestoreAPI sebagai sumber data produk. ",
-    tools: ["React Js", "CSS", "Javascript", "API"],
+    tools: ["React Js", "CSS", "Javascript", "APi"],
     dad: "200",
-    deskLengkap: "Website E-Commerce ini adalah mini project yang saya buat dengan memanfaatkan FakestoreAPI sebagai sumber data produk. Fitur yang tersedia meliputi pencarian produk, tampilan daftar produk dinamis, detail produk (nama, harga, deskripsi, kategori), serta simulasi checkout. Proyek ini saya kerjakan sebagai latihan setelah mempelajari fundamental React, khususnya dalam mengonsumsi API, mengelola state dengan React Hooks, dan membangun alur interaktif pada aplikasi web sederhana."
+    deskLengkap:
+      "Website E-Commerce ini adalah mini project yang saya buat dengan memanfaatkan FakestoreAPI sebagai sumber data produk. Fitur yang tersedia meliputi pencarian produk, tampilan daftar produk dinamis, detail produk (nama, harga, deskripsi, kategori), serta simulasi checkout. Proyek ini saya kerjakan sebagai latihan setelah mempelajari fundamental React, khususnya dalam mengonsumsi API, mengelola state dengan React Hooks, dan membangun alur interaktif pada aplikasi web sederhana.",
   },
   {
     id: 2,
     gambar: Proyek2,
-    gambar2 : Projek2next,
+    gambar2: Projek2next,
     nama: "Website Pemesanan Tiket Film",
-    linkWeb : "https://txid-mini-yogz.vercel.app/",
-    linkGithub : "https://github.com/fernandayoga/TXID-mini-yogz.git",
+    linkWeb: "https://txid-mini-yogz.vercel.app/",
+    linkGithub: "https://github.com/fernandayoga/TXID-mini-yogz.git",
     desk: "Website Film yang saya buat merupakan mini project menggunakan React dengan integrasi OMDb API",
-    tools: ["React Js", "CSS", "Javascript", "API"],
+    tools: ["React Js", "CSS", "Javascript", "APi"],
     dad: "300",
-    deskLengkap : "Website Film yang saya buat merupakan mini project menggunakan React dengan integrasi OMDb API. Website ini memiliki fitur search film, menampilkan daftar hasil pencarian, serta halaman detail film dengan informasi lengkap seperti poster, genre, sutradara, aktor, rating, dan plot. Selain itu, saya menambahkan fitur beli tiket film di mana pengguna bisa memilih jadwal tayang, bioskop, jumlah tiket, dan melakukan checkout hingga ke halaman sukses pembelian. Proyek ini menjadi latihan saya dalam penggunaan React Router, Hooks, dan API integration dengan desain bertema dark mode yang modern dan responsif."
+    deskLengkap:
+      "Website Film yang saya buat merupakan mini project menggunakan React dengan integrasi OMDb API. Website ini memiliki fitur search film, menampilkan daftar hasil pencarian, serta halaman detail film dengan informasi lengkap seperti poster, genre, sutradara, aktor, rating, dan plot. Selain itu, saya menambahkan fitur beli tiket film di mana pengguna bisa memilih jadwal tayang, bioskop, jumlah tiket, dan melakukan checkout hingga ke halaman sukses pembelian. Proyek ini menjadi latihan saya dalam penggunaan React Router, Hooks, dan API integration dengan desain bertema dark mode yang modern dan responsif.",
   },
-  // {
-  //   id: 3,
-  //   gambar: Proyek3,
-  //   nama: "Web Pernikahan 2.0",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-  //   dad: "400",
-  // },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Web Cuaca",
+    linkWeb: "https://weather-app-fawn-one-26.vercel.app/",
+    linkGithub: "https://github.com/fernandayoga/weather-app.git",
+    desk: "Website cuaca interaktif menggunakan React.js dan Tailwind CSS, yang terintegrasi dengan API dari OpenWeather",
+    tools: ["ReactJS", "TailwindCSS", "APi"],
+    dad: "400",
+    deskLengkap:
+      "Website cuaca dengan menggunakan API dari OpenWeather. Website ini dirancang untuk menampilkan informasi cuaca secara real-time berdasarkan lokasi pengguna atau kota yang dicari. Melalui integrasi API OpenWeather, situs ini dapat menampilkan berbagai data penting seperti suhu udara, kelembapan, kecepatan angin, tekanan udara, serta kondisi cuaca terkini seperti cerah, berawan, hujan, atau badai.",
+  },
   // {
   //   id: 4,
   //   gambar: Proyek4,
